@@ -4,11 +4,13 @@ from flask_migrate import Migrate
 from models import db, Book, Author
 
 def create_app():
+    print("Creating app...")
     app = Flask(__name__)
     app.config.from_object('config.Config')
     
     db.init_app(app)
     migrate = Migrate(app, db)
+    print("App and Migrate initialized")
 
     @app.route('/books', methods=['GET'])
     def get_books():
@@ -40,4 +42,5 @@ def create_app():
 
 if __name__ == '__main__':
     app = create_app()
+    print("App created successfully.")
     app.run(debug=True)

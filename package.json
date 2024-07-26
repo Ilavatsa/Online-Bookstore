@@ -1,0 +1,22 @@
+{
+  "name": "online-bookstore",
+  "version": "1.0.0",
+  "description": "A frontend for the online bookstore",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ilavatsa/Online-Bookstore.git"
+  },
+  "keywords": [
+    "coyote"
+  ],
+  "author": "Felicity Muhonja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ilavatsa/Online-Bookstore/issues"
+  },
+  "homepage": "https://github.com/Ilavatsa/Online-Bookstore#readme"
+}

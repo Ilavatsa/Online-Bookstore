@@ -25,4 +25,3 @@ class Author(db.Model):
             'name': self.name,
             'books': [book.to_dict() for book in self.books]
         }
-
